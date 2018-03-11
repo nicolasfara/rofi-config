@@ -1,0 +1,7 @@
+elems:
+  - src: ^(config)$
+    dst: ~/.config/rofi/<1>
+    only: f?rofi
+
+
+# vim: set filetype=eruby.yaml :

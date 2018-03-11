@@ -1,0 +1,8 @@
+# => inherits: generic <= #
+
+font:
+  name: Hack
+  size: 12
+
+
+# vim: set filetype=eruby.yaml :
