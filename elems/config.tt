@@ -32,10 +32,13 @@
 #include "/usr/share/rofi/themes//glue_pro_blue.theme"
 
 rofi.combi-modi:    window,drun,ssh
-rofi.theme:         Arc
 rofi.font:          <%= get_var! 'font.name' %> <%= get_var! 'font.size' %>
-rofi.dpi:           216
+rofi.dpi:           <%= get_var! 'dpi' %>
 rofi.modi:          combi
+
+rofi.show-icons:    true
+rofi.cycle:         true
+rofi.sidebar-mode:  true
 
 
 
