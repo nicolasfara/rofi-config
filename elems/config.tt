@@ -29,9 +29,10 @@
 !
 ! ─────────────────────────────────────────────────────────────────────────────┘
 
-#include "/usr/share/rofi/themes//glue_pro_blue.theme"
+#include "/usr/share/rofi/themes//gruvbox-dark-hard.theme"
 
-rofi.combi-modi:    window,drun,ssh
+rofi.combi-modi: widnow,drun,ssh
+rofi.enabled-modi: combi,ssh
 rofi.font:          <%= get_var! 'font.name' %> <%= get_var! 'font.size' %>
 rofi.dpi:           <%= get_var! 'dpi' %>
 rofi.modi:          combi
@@ -40,5 +41,8 @@ rofi.show-icons:    true
 rofi.cycle:         true
 rofi.sidebar-mode:  true
 
+rofi.ssh-client:    ssh
+rofi.ssh-command:   {terminal} -e {ssh-client} {host}
 
+rofi.terminal:      st
 

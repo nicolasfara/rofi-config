@@ -5,6 +5,7 @@ font:
   size: 12
 
 dpi: 216
+terminal: st
 
 
 # vim: set filetype=eruby.yaml :
